@@ -10,7 +10,7 @@ Pero, con el paso del tiempo _javascript_ tomo fuerza para ser una de las mejore
 ####Variables
 >Las variables en _javascript_ son creadas a partir de la palabra clave **var** y son inicializadas asignandoles un valor.
 
->_JavaScript_ al ser un lenguaje que no es fuertemente tipado no es necesario declarar el tipo de datos al cual hace referencia la variable.
+_Javascript_ al ser un lenguaje que no es fuertemente tipado no es necesario declarar el tipo de datos al cual hace referencia la variable.
 
 ```javascript
     var numero = 10; // Tipo entero numérico
@@ -20,4 +20,17 @@ Pero, con el paso del tiempo _javascript_ tomo fuerza para ser una de las mejore
     var bool = false; // Tipo Booleano
 ```
 ####Operadores
+>Los operadores nos permiten relacionar de formas diferentes una o mas variables por medio de los valores de cada una. 
+
+######Tipos De Operadores:
+1. Aritmeticos:
+    - Suma ( + )
+    - Resta ( - )
+    - Multiplicación ( * )
+    - División ( / )
+    - Mod ( % )
+
+    
+```javascript
+            
 
