@@ -1,14 +1,6 @@
-# Workshop MonteríaJS.
-Taller de Javascript. II Congreso Internacional de Ingeniería de Sistemas.
-<!-- Comentarios -->
-```javascript
-function fn (){
-    var x = 5;
-	console.log('asdasdas')
-}
-```
+# Workshops MonteríaJS
 
-```python
-    def app(name):
-        print('My name is $1', name)
-```
+Javascripter, en este repositorio encontrarás los archivos respectivos a las guías de cada taller.
+
+- [Guía Taller de Javascript.](https://github.com/jfbaquerocelis/workshop-monjs-15-oct/blob/master/javascript-guide.md)
+- [Guía Taller de Servidores bajo Linux.](https://github.com/jfbaquerocelis/workshop-monjs-15-oct/blob/master/summarized_guia-servidores.md)
