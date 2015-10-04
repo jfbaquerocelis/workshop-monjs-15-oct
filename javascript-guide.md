@@ -13,9 +13,11 @@ Pero, con el paso del tiempo _javascript_ tomo fuerza para ser una de las mejore
 >_JavaScript_ al ser un lenguaje que no es fuertemente tipado no es necesario declarar el tipo de datos al cual hace referencia la variable.
 
 ```javascript
-    function f(){
-        var a = 5;
-    }
+    var numero = 10; // Tipo entero numérico
+    var flotante = 15.5; // Tipo decimal numérico
+    var cadena = "Hello Javascripter!" // Tipo cadena de texto
+    var arreglos = [1, 2, "data", 'simple_data']; // Tipo arreglo de datos
+    var bool = false; // Tipo Booleano
 ```
 ####Operadores
 
