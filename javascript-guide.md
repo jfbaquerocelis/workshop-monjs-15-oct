@@ -8,10 +8,14 @@ Pero, con el paso del tiempo _javascript_ tomo fuerza para ser una de las mejore
 ###Pre-conceptos
 
 ####Variables
->Las variables en _javascript_ son creadas a partir de la palabra clave **var** asdasdas
+>Las variables en _javascript_ son creadas a partir de la palabra clave **var** y son inicializadas asignandoles un valor.
+
+>_JavaScript_ al ser un lenguaje que no es fuertemente tipado no es necesario declarar el tipo de datos al cual hace referencia la variable.
 
 ```javascript
     function f(){
         var a = 5;
     }
 ```
+####Operadores
+
