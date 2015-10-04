@@ -29,8 +29,79 @@ _Javascript_ al ser un lenguaje que no es fuertemente tipado no es necesario dec
     - Multiplicación ( * )
     - División ( / )
     - Mod ( % )
-
     
 ```javascript
-            
+    // Suma
+    var suma_enteros = 10 + 5; // Suma de enteros
+    var suma_flotantes = 10.5 + 15.4 // Suma de flotantes
+
+    // Resta
+    var resta_enteros = 10 - 5; // Resta de enteros
+    var resta_flotantes = 10.5 - 15.4; // Resta flotantes
+
+    // Multiplicación
+    var multiplicacion_enteros = 10 - 5; // Multiplicación de enteros
+    var multiplicacion_flotantes = 10.5 - 15.4; // Multiplicación flotantes    
+
+    // División
+    var multiplicacion_enteros = 10 / 5; // División de enteros
+    var multiplicacion_flotantes = 10.5 / 15.4; // División flotantes
+
+    // Mod
+    var mod_enteros = 10 % 5; // Mod de enteros
+    var mod_flotantes = 10.5 % 15.4; // Mod flotantes        
+```
+2. Lógicos:
+    - AND ( && )
+    - OR ( || )
+    - NOT ( ! )
+
+```javascript
+    // Declaramos dos variables booleanas
+    var a = true;
+    var b = false;
+
+    // AND
+    var and = a && b; // false
+
+    // OR
+    var or = a || b; // true
+
+    // NOT
+    var not = !b; // true
+```
+3. Relacionales:
+    - Menor que ( < )
+    - Mayor que ( > )
+    - Igual que ( === )
+    - Diferente de ( !== )
+    - Mayor o Igual que ( >= )
+    - Menor o Igual que ( <= )
+
+```javascript
+    // Declaramos dos variables
+    var a = 5;
+    var b = 3;
+
+    // Menor que
+    var menor_que = a < b; // false
+
+    // Mayor que
+    var mayor_que = a > b; // true
+
+    // Igual que
+    var igual_que = a === b; // false
+
+    // Diferente que
+    var diferente_que = a !== b; // false
+
+    // Menor igual que
+    var menor_igual_que = a <= b; // false
+
+    // Mayor igual que
+    var mayor_igual_que = a >= b; // true
+```
+
+
+
 
