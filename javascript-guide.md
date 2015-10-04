@@ -30,7 +30,7 @@ _Javascript_ al ser un lenguaje que no es fuertemente tipado no es necesario dec
     - División ( / )
     - Mod ( % )
     
-```javascript
+    ```javascript
     // Suma
     var suma_enteros = 10 + 5; // Suma de enteros
     var suma_flotantes = 10.5 + 15.4 // Suma de flotantes
@@ -50,13 +50,13 @@ _Javascript_ al ser un lenguaje que no es fuertemente tipado no es necesario dec
     // Mod
     var mod_enteros = 10 % 5; // Mod de enteros
     var mod_flotantes = 10.5 % 15.4; // Mod flotantes        
-```
+    ```
 2. Lógicos:
     - AND ( && )
     - OR ( || )
     - NOT ( ! )
 
-```javascript
+    ```javascript
     // Declaramos dos variables booleanas
     var a = true;
     var b = false;
@@ -69,7 +69,7 @@ _Javascript_ al ser un lenguaje que no es fuertemente tipado no es necesario dec
 
     // NOT
     var not = !b; // true
-```
+    ```
 3. Relacionales:
     - Menor que ( < )
     - Mayor que ( > )
@@ -78,7 +78,7 @@ _Javascript_ al ser un lenguaje que no es fuertemente tipado no es necesario dec
     - Mayor o Igual que ( >= )
     - Menor o Igual que ( <= )
 
-```javascript
+    ```javascript
     // Declaramos dos variables
     var a = 5;
     var b = 3;
@@ -100,8 +100,5 @@ _Javascript_ al ser un lenguaje que no es fuertemente tipado no es necesario dec
 
     // Mayor igual que
     var mayor_igual_que = a >= b; // true
-```
-
-
-
+    ```
 
