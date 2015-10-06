@@ -102,3 +102,162 @@ _Javascript_ al ser un lenguaje que no es fuertemente tipado no es necesario dec
     var mayor_igual_que = a >= b; // true
     ```
 
+####Estructuras de control de flujo
+
+>Las estructuras de control de flujo nos permiten controlar las instrucciones que escribimos en nuestros programas.
+
+-  **if**   _Simple_
+-  **if**   _Anidado_ 
+-  **if else** _si sino_ 
+
+```javascript
+    if (condicion) // if simple
+    {
+        //instrucciones
+    }
+
+    if (condicion) // if anidado
+    {
+             //instrucciones
+
+             if (condicion) // if simple
+             {
+                   //instrucciones
+             }
+    }
+```
+
+ ```javascript
+     if (condicion) // if anidado
+    {
+                 //instrucciones
+                 
+                 if (condicion) // if simple
+                 {
+                       //instrucciones
+                 }
+    }
+``` 
+como en cualquier lenguaje de programacion **JavaScript** nos permite implementar los operadores relacionales y lógicos dentro de los paréntesis del condicional como se muestra a continuación.
+
+
+```javascript
+    // Declaramos dos variables
+    var a = 5;
+    var b = 3;
+
+    if ( a > b ) // true
+    {
+         // SI se ejecutan las instrucciones dentro de los {}
+    } 
+
+    if ( a < b ) // false
+    {
+         // NO se ejecutan las instrucciones dentro de los {}
+    } 
+
+     if ( a < b ) // false
+    {
+         // NO se ejecutan estas instrucciones
+    }  else {
+         // SI se ejecutan estas instrucciones
+    }
+
+     if ( a < b ) // false
+    {
+         // NO se ejecutan estas instrucciones
+    }  else if ( a === b ) { // false
+         //  NO se ejecutan estas instrucciones
+    }
+
+     if ( a > b ) // true
+    {
+         // SI se ejecutan estas instrucciones
+          if ( a === b )  // false
+             { 
+                    //  NO se ejecutan estas instrucciones
+             }
+    } 
+```
+
+####Ciclos
+
+>Los ciclos repetitivos o bucles nos permiten iterar **instrucciones** a partir de ciertas condiciones, los ciclos más usados en JavaScript son:  
+
+-  **for** 
+-  **while**   
+-  **for in** 
+
+######sintaxis JavaScript
+
+
+```javascript
+    
+    for ( var i = 0; i < num ; i++ ) 
+    {                                      
+        //instrucciones a iterar
+    }
+   
+
+    while ( condición ) 
+    {                       
+          //instrucciones a iterar;
+    }
+
+
+    for ( key in array || object ) 
+    {
+           //instrucciones a iterar;
+    }
+```
+
+
+```javascript
+    
+    // Ejemplo for en JavasCript
+    for ( var i = 0; i < 4 ; i++ ) // ciclo for que itera 4 
+    {                                      //veces el código dentro de los {}
+        console.log(i);
+    }
+    /* Output
+    >
+    0
+    1
+    2
+    3
+    */
+
+    // Ejemplo while en JavaScript 
+    var count = 0;  // declaración de variable count
+    while ( count < 5 ) // Mientras esta condición devuelva true se repetirá 
+      {                       //el código dentro de las {}
+          console.log('hola #' + count); 
+          ++count;
+    }
+    /* Output
+    >
+    hola #0
+    hola #1
+    hola #2
+    hola #3
+    hola #4
+    5
+    */
+
+    //Ejemplo for in en Javascript
+    var peoples = ['Susan', 'Maria', 'Jose', 'Juan']; // declaracion de un arreglo
+    for ( i in peoples ) // para i que recorre en el arreglo peoples
+    {
+       console.log( 'Nombre: ' + peoples[ i ] );
+    }
+    /* Output
+    >
+    Nombre: Susan
+    Nombre: Maria
+    Nombre: Jose
+    Nombre: Juan
+    undefinied
+    */
+
+```
+
