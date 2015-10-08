@@ -262,7 +262,7 @@ como en cualquier lenguaje de programacion **JavaScript** nos permite implementa
 ```
 
 ####Funciones:
->Las funciones en _Javascript_ son un conjunto de instrucciones que se agrupan para realizan una tarea concreta y los mas importante es que se pueden reutilizar facilmente.
+>Las funciones en _Javascript_ son un conjunto de instrucciones que se agrupan para realizan una tarea concreta y los mas importante es que se pueden reutilizar facilmente. Las funciones se reconocen porque llevan la palabra __function__ antes del nombre de la función.
 
 ```javascript
     
@@ -286,4 +286,15 @@ como en cualquier lenguaje de programacion **JavaScript** nos permite implementa
     // Ejecutamos la función
     Suma(2,2); // 4
 ```
+######Funciones Anónimas
+>En _Javascript_ existen otro tipo de funciones llamadas __Funciones Anónimas__. Estas funciones se reconocen debido a que no llevan un nombre un especifico.
+
+```javascript
+
+    function () {
+        console.log('Esta función no tiene un nombre');
+    }
+  
+```
+
 
