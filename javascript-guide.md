@@ -261,3 +261,29 @@ como en cualquier lenguaje de programacion **JavaScript** nos permite implementa
 
 ```
 
+####Funciones:
+>Las funciones en _Javascript_ son un conjunto de instrucciones que se agrupan para realizan una tarea concreta y los mas importante es que se pueden reutilizar facilmente.
+
+```javascript
+    
+    //Funcion Simple
+    var a = 2;
+    var b = 3;
+    function Resta(){
+        var resta = 0;
+        resta = a - b;
+        return resta;
+    }
+    //ejecutamos la función
+    Resta(); // -1
+
+    //Funcion Con Parámetros
+    function Suma(a,b){
+        var suma = 0;
+        suma = a + b;
+        return suma;
+    }
+    // Ejecutamos la función
+    Suma(2,2); // 4
+```
+
