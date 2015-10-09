@@ -262,7 +262,8 @@ como en cualquier lenguaje de programacion **JavaScript** nos permite implementa
 ```
 
 ####Funciones:
->Las funciones en _Javascript_ son un conjunto de instrucciones que se agrupan para realizan una tarea concreta y los mas importante es que se pueden reutilizar facilmente. Las funciones se reconocen porque llevan la palabra __function__ antes del nombre de la función.
+>Las funciones en _Javascript_ son un conjunto de instrucciones que se agrupan para realizan una tarea concreta y los más importante es que se pueden reutilizar facilmente. Las funciones se reconocen porque llevan la palabra __function__ antes del nombre de la función.
+Cabe resaltar la importancia de las funciones en _javascript_, es por ese motivo que se dice que _javascript_ es un **lenguaje funcional**.
 
 ```javascript
     
@@ -290,11 +291,102 @@ como en cualquier lenguaje de programacion **JavaScript** nos permite implementa
 >En _Javascript_ existen otro tipo de funciones llamadas __Funciones Anónimas__. Estas funciones se reconocen debido a que no llevan un nombre un especifico.
 
 ```javascript
-
-    function () {
+    (function () {
         console.log('Esta función no tiene un nombre');
-    }
-  
+    })()
+    // Esta función no tiene nombre
 ```
 
+######Funciones Asignadas a Variable
+>Estas funciones en realidad son funciones anónimas asignadas a una variable. De aquí se resalta la importancia de javascript y las variables, de esta forma una función tiene la habilidad de poder ser anónima y recibir el nombre de la variable a la cual se asigna.
 
+```javascript
+    var hello_word = function (){
+        console.log('Hola mundo!, soy una función llamada hello_word!')
+    }
+
+    hello_word() // Hola mundo!, soy una función llamada hello_word!
+```
+
+####Objetos
+>He aquí el dilema de muchos programadores _javascript_. Los objetos en este lenguaje son mirados desde muchos puntos de vista, pero en un concepto más adaptado un objeto es una colección cualquiera de pares llave-valor.
+Comencemos con saber que existen 3 formas de crear objetos en javascript:
+
+1. Literalmente
+2. Usando **new**
+3. Usando la función **Object.create()**
+
+######Literalmente
+>Cuando hablamos de crear una variable literal nos referimos a crear un objeto de forma normal o natural.
+
+```javascript
+    var objeto = {llave : 'valor'};
+```
+
+######Usando new
+>**new** es una palabra reservada o clave usada en _javascript_ para crear un objeto a partir de una "clase". **new** crea una instancia de una "clase" o modelo.
+
+_¿Por qué clase entre comillas?_
+>El concepto de clase en javascript no es manejado hasta **ES6** _(ECMAScript 6)_.
+Por tal motivo en **ES5** _(ECMAScript 5)_ no se maneja el concepto, solo se hablan de instancias y funciones que pueden actuar como clases.
+La forma en que se instancia una "clase" en _javascript_ creando así un objeto es de la siguiente manera:
+
+```javascript
+    // Creamos la clase o el modelo
+    function Animal(nom){
+        this.nombre = nom;
+    }
+
+    // Ahora creamos la instancia del modelo Animal
+    var Perro = new Animal('Kiro')
+
+    // Si accedemos a sus propiedades podremos ver el nombre del Perro
+    Perro.nombre; // Kiro
+```
+
+######Usando Object.create()
+>Muchos desarrolladores consideran a esta función como la forma correcta de crear un objeto. Esta función recibe 2 parametros y es una **Función asignada a variable**.
+Los parametros son:
+
+1. **Proto:** Este es el prototipo a partir del cual se creará el objeto.
+2. **Propiedades:** Es un objeto el cual contiene cada llave como el nombre de la propiedad y cada valor como un objeto que contiene el valor de la llave y otras características.
+
+```javascript
+    var objeto = Object.create(Object.prototype, {
+        prop_uno : { value : "Valor de la propiedad 1" },
+        prop_dos : { value : "Valor de la propiedad 2" }
+    })
+
+    objeto.prop_uno; // Valor de la propiedad 1
+    objeto.prop_dos; // Valor de la propiedad 2
+```
+
+Antes de cerrar este capítulo vamos a tratar de explicar el concepto de POO y prototipado en _javascript_.
+
+######Javascript orientado a objetos
+>Este concepto ha nacido a partir de algunos desarrolladores que usan el paradigma de **Programación Orientada a Objetos** en su diario vivir. Y se sustenta con el uso de prototipos y contructores en javascript.
+En realidad decir que _javascript_ es un lenguaje _Orientado a objetos_ o no es un concepto más personal del desarrollador que de javascript, pero no deja de ser un tema de gran discución.
+
+######Prototipo
+>Un _prototipo_ es un objeto del cual otros objetos pueden heredar propiedades y métodos.
+
+###Introducción a Javascript
+>¿Introducción a Javascript? Y lo anterior que?.
+Lo anterior eran conceptos sobre _javascript_ que son buenos tener claros antes de aventurarnos en este lenguaje.
+
+####¿Qué es Javascript?
+>Javascript es el lenguaje de la web. Es un lenguaje interpretado orientado a eventos que nos permite crear aplicaciones web versátiles y sobre todo muy interactivas.
+
+####Características del lenguaje
+<!-- Deyby termina esta parte con neder y jose -->
+
+####Los 6 mandamientos de Javascript
+
+1. **Javascript** es un lenguaje funcional.
+2. **Javascript** es un lenguaje orientado a eventos.
+3. **Javascript** es un lenguaje asíncrono.
+4. **Javascript** NO ES JAVA.
+5. **Javascript** es el lenguaje de la web.
+6. **Javascript** es el único lenguaje que un navegador puede interpretar (Por ahora...).
+
+<!-- Listo, después vienen los ejercicios, ejemplos o algún taller -->
