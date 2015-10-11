@@ -378,7 +378,12 @@ Lo anterior eran conceptos sobre _javascript_ que son buenos tener claros antes 
 >Javascript es el lenguaje de la web. Es un lenguaje interpretado orientado a eventos que nos permite crear aplicaciones web versátiles y sobre todo muy interactivas.
 
 ####Características del lenguaje
-<!-- Deyby termina esta parte con neder y jose -->
+>_Javascript_ posee diferentes características que lo transforman en un lenguaje único.
+
+1. **Javascript** es un lenguaje interpretado.
+2. **Javascript** no es un lenguaje fuertemente tipado.
+3. En **Javascript** todo es un objeto.
+4. **Javascript** posee una sintaxis simple, facil de aprender.
 
 ####Los 6 mandamientos de Javascript
 
